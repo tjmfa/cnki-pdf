@@ -1,7 +1,7 @@
 {
   "name": "cnki-pdf",
   "version": "1.0.0",
-  "description": "",
+  "description": "A chrome extension developed for downloading pdf files on cnki",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/tjmfa/cnki-pdf.git"
   },
-  "author": "",
+  "author": "Turkyden",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tjmfa/cnki-pdf/issues"

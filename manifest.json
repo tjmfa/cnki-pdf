@@ -1,0 +1,34 @@
+{
+  "name": "CNKI PDF",
+  "description" : "A chrome extension developed for downloading pdf files on cnki",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "manifest_version": 2,
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "键盘快捷键切换"
+    }
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "http://api.wunderground.com/api/",
+    "tabs",
+    "activeTab",
+    "notifications",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://kns.cnki.net/*", "http://kns.cnki.net/*"],
+      "css": ["styles.css"],
+      "js": ["jquery.js", "contentscript.js"]
+    }
+  ]
+}

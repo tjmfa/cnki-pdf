@@ -30,6 +30,6 @@ const href = `http://kns.cnki.net/kns/download.aspx?filename=${filename}&tablena
 
 鼠标右键，下载 PDF
 
-- 下载失败，说明服务器上只有 `.caj` 文件，只能乖乖的用特质浏览器阅读了 :(
+- 下载失败，说明服务器上只有 `.caj` 文件，只能乖乖的用特殊浏览器阅读了 :(
 
 - 下载成功 👌
